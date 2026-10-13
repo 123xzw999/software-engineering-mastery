@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>软件工程全栈知识系统 · 从本科到硕士到大厂</title>
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<!-- 动态极光背景 -->
+<div class="aurora"><span></span><span></span><span></span><span></span></div>
+<div class="grid-overlay"></div>
+<div class="noise"></div>
+
+<!-- 登录页 -->
+<div id="loginView" class="login-view">
+  <div class="login-card">
+    <div class="brand-mark">SE</div>
+    <div class="login-title">软件工程全栈知识系统</div>
+    <div class="login-sub">本科专业课 · 硕士研究方向 · 大厂工程实践</div>
+    <form id="loginForm" autocomplete="off">
+      <div class="field">
+        <label>用户名</label>
+        <input id="loginUser" type="text" placeholder="请输入用户名" autocomplete="off">
+      </div>
+      <div class="field">
+        <label>密码</label>
+        <input id="loginPass" type="password" placeholder="请输入密码" autocomplete="off">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">进入系统</button>
+      <div class="login-err" id="loginErr"></div>
+    </form>
+    <div class="login-hint">
+      默认账号 <code>123456</code> ／ 密码 <code>xiaoxiong888</code><br>
+      数据保存在本机浏览器，换设备不同步
+    </div>
+  </div>
+</div>
+
+<!-- 主应用 -->
+<div id="app" class="app wrap">
+  <div class="topbar" id="topbar"></div>
+  <div class="main" id="main"></div>
+</div>
+
+<div id="modal" class="hidden"></div>
+<div id="toast" class="toast"></div>
+
+<!-- 数据层 -->
+<script src="assets/js/data/d01-d04.js"></script>
+<script src="assets/js/data/d05-d07.js"></script>
+<script src="assets/js/data/d08-d11.js"></script>
+<script src="assets/js/data/d12-d14.js"></script>
+<script src="assets/js/data/d15-d17.js"></script>
+<script src="assets/js/data/projects.js"></script>
+<script src="assets/js/data/courses.js"></script>
+<!-- 应用层 -->
+<script src="assets/js/app.js"></script>
+</body>
+</html>
