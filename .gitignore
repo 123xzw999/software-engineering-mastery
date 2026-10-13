@@ -1,0 +1,8 @@
+# 本地验证与部署的临时文件（不纳入版本控制）
+_verify.js
+_verify.html
+_local.html
+_ld.html
+_vd.html
+_vc/
+_lc/
